@@ -1,0 +1,90 @@
+/* style.css */
+
+/* General body styles */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #000000;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container */
+.mainbox {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #0a3d62;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #3c6382;
+    font-size: 28px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* Paragraph and text box styling */
+.box {
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.8;
+    font-size: 17px;
+}
+
+/* Image section */
+.image {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.image img {
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image img:hover {
+    transform: scale(1.05);
+}
+
+/* Evolution timeline list */
+ul {
+    padding-left: 40px;
+    list-style-type: square;
+    font-size: 16px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Footer text */
+p:last-of-type {
+    text-align: center;
+    font-style: italic;
+    margin-top: 30px;
+    color: #7f8c8d;
+}
+
+#creater {
+    text-align: center;
+    color: darkgreen;
+    font-weight: bold;
+    text-decoration: "underline";
+}
